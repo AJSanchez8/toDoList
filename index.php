@@ -19,7 +19,7 @@ $realizado = $conexion->query($sql);
     <link rel="icon" href="./src/icons/icono2.png" type="image/x-icon">
 
 </head>
-<body class="bg-slate-500">
+<body class="bg-slate-300">
     <header>
     <h1 class="text-5xl font-mono font-bold w-full sticky p-2 bg-yellow-500 text-center "> Agenda </h1>
     <div class="bg-yellow-500 shadow-md">
@@ -45,7 +45,7 @@ $realizado = $conexion->query($sql);
     while($row = $noRealizado->fetch_assoc()){
         if($row['realizado']==0){
             echo("
-            <a href='#' class=' grid grid-cols-2 grid-flow-row-3 gap-4 max-w-sm p-6 bg-red-200 border border-red-500 rounded-lg shadow shadow-white hover:bg-red-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
+            <a href='#' class=' grid grid-cols-2 grid-flow-row-3 gap-4 max-w-sm p-6 bg-red-200 border border-red-500 rounded-lg shadow dark:shadow-white hover:bg-red-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
         
             <h5 class='col-span-2 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>$row[titulo]</h5>
 
