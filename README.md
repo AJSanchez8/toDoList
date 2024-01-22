@@ -16,8 +16,12 @@ Agenda creada que surge de la necesidad de gestionar mis tareas diarias.
 
 Para que funcione cambiar en el archivo [conexion.php](./pages/conexion.php) las credenciales.
 
-__PÁGINA PRINCIPAL__
-![Página principal](./src/img/index.png)
+__PÁGINA PRINCIPAL COLOR OSCURO__
+![Página principal](./src/img/oscuro.png)
+
+__PÁGINA PRINCIPAL COLOR CLARO__
+![Página principal](./src/img/claro.png)
+
 
 __FORMULARIO__
 ![Formulario](./src/img/form.png)
