@@ -11,12 +11,3 @@ CREATE TABLE tareas (
   fecha DATE NOT NULL,
   realizado TINYINT(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-/*
--- Example about how to create a new database user and grant privileges.
--- Remember to change the static values of: DB_USER, DB_PASSWORD and DB_NAME
-
-DROP USER IF EXISTS 'DB_USER'@'%';
-CREATE USER 'DB_USER'@'%' IDENTIFIED BY 'DB_PASSWORD';
-GRANT ALL PRIVILEGES ON lamp_db.* TO 'DB_USER'@'%';
-*/
