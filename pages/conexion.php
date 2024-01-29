@@ -7,3 +7,4 @@ define('DB_PASSWORD', 'password_here');
 
 $conexion = new mysqli(DB_HOST,DB_NAME,DB_USER,DB_PASSWORD);
 
+?>
